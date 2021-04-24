@@ -83,8 +83,8 @@ using face data of the attendees, it also recognise the presence of mask.""")
 
 					elif choose_pgm == "Attendance System":
 						st.text("The camcoder popup will be shown now and start recognising.")
-						os.system("python3 /home/naresh/Documents/python/face_3.py")
-					    #os.system("python3 /home/naresh/Documents/python/face_2.py")
+						os.system("python3 face_3.py")
+					    
 					
 					else:
 						os.system("python3 camera.py")
