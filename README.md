@@ -21,3 +21,4 @@ File/Folder Usage:
 7. face_feat_extr_accuracy.ipynb : Roc and noc graph for Attendance System.
 8. lossANDaccuracy.png: Loss and Accuracy graph while training the Mask Detection.
 9. mask_trained.model : Mask Detection model generated in traning phase of mask detection(trianing_script.py).
+10. usermanagement.db : Login credentials DB for streamlit UI.
