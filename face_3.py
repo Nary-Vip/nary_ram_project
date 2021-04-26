@@ -86,7 +86,7 @@ video_capture.release()
 cv2.destroyAllWindows()
 
 #your specified file path
-with open('D:\\CIT\\Sem-4\\ML\\Lab\\Project\\Data\\attendance.csv', 'w') as f:
+with open('attendance.csv', 'w') as f:
 
     write = csv.writer(f)
 
@@ -95,5 +95,5 @@ with open('D:\\CIT\\Sem-4\\ML\\Lab\\Project\\Data\\attendance.csv', 'w') as f:
     write.writerows(rows)
 
 #your specified file path
-data = ps.read_csv('D:\\CIT\\Sem-4\\ML\\Lab\\Project\\Data\\attendance.csv')
+data = ps.read_csv('attendance.csv')
 print(data)
