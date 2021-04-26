@@ -59,6 +59,9 @@ using face data of the attendees, it also recognise the presence of mask.""")
 	
 	elif choice == "About US":
 		st.subheader("Project Information and Source files")
+		st.text("""This project is developed by Naresh Kumar and Sriram of M.sc(AIML) which consists of 
+Atteandance System and Mask Detection. For any references or queries , follow my 
+GitHub(Nary-Vip).""")
 
 	elif choice == "Login":
 		st.subheader("Login to access and start the recognition model.")
